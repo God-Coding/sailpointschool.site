@@ -1937,3 +1937,13 @@ section {
 .row{
   display: flex;
 }
+.text_body .question{
+  color: #3194db;
+  font-size: 28px;
+  font-style: Verdana ;
+}
+.text_body .answer{
+  color: #111;
+  font-size: 20px;
+  font-style: Verdana ;
+}
