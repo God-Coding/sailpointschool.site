@@ -87,7 +87,7 @@
           <h1>
             SailPoint IdentityIQ Full Course
           </h1>
-          <h2> Here you can get full understanding about sailpoint IdentityIQ, This course id designed by professional sailpoint develepers.</h2>
+          <h2> Here you can get full understanding about sailpoint IdentityIQ, This course id designed by professional sailpoint developers.</h2>
         </div>
     </div>
 
@@ -242,7 +242,330 @@
 
             <p class="answer"> I hope you saw the syllabus so without wasting any time <a href="">Lets get started</a>.</p>
 
+        </div> <hr> <hr>
+        <section id = "sailpoint_installation">
+      <div class = "text_body">
+        <h2> <p class = "question">How to install Sailpoint IdentityIQ</p></h2>
+        <p class = answer>Can't read whole thing? Then watch <a href="https://youtu.be/DvXEZ_jwfZI"> how to install sailpoint</a></p>
+        <p class = "answer">Installing sailpoint is a long process but easy to do, If you want to see sailpoint in your pc there are 4 componets you should download <br>
+        1) Java: Sailpoint Identity IQ runs of java api. <a href="#java_installtion">How to download java for sailpoint</a> <br> 2) Database: Everything in sailpoint is an object so we need database to store this object. <a href="#mysql_installation">MySql Installation For Sailpoint</a>
+         <br> 3) Application Server: Sailpoint is a web based application so we need application server to host sailpoint in web. <a href="#tomcat_installation">Tomcat Installation</a><br>
+          4) Sailpoint software: Finally sailpoint software. <a href="#sailpointpartinstallation">SailPoint Installation</a></p>
+      
+        <section id = "java_installtion"><p class = "question">Java Installation For SailPoint</p>
+          <p class = "answer">Ok lets start installing with java. Downloading java is pretty stright forward go to google and type "Download Java" or <a href="https://www.java.com/download/ie_manual.jsp">use this link to download java</a> </p>
+          <br> <div class="clients img" >
+            <img src="assets/img/download java.png" alt="">
+          </div> 
+          <p class = "answer">- Click on download java.</p>
+          <div class="clients img" >
+            <img src="assets/img/download java 2.png" alt="">
+          </div> 
+          <p class = "answer">- You will see an exe file downloding down left on your screen</p>
+          <div class="clients img" >
+            <img src="assets/img/java download 3.png" alt="">
+          </div> 
+          <p class = "answer">- Double click on the downloaded .exe file. It asks for changes on your computer. Click on the Yes button to run the setup.</p>
+  
+          <p class="answer"> In the installation wizard window, click on the Next button. <br>
+            Click on the Change button if you want to change the installation directory. By default, it installs JDK on the location C:\Program Files\Java\jdk-14.0.1. Otherwise, click on the Next button. It starts the installation of JDK. <br>
+          </p>
+  
+          <div class="clients img" >
+            <img src="assets/img/download java 4.png" alt="">
+          </div> 
+  
+          <div class="clients img" >
+            <img src="assets/img/download java 5.png" alt="">
+          </div> 
+  
+          <p class = "answer">When Java is successfully installed on your system it shows a message Java SE Developments Kit 14.0.1 (64-bit) Successfully Installed. Click on the Close button.</p>
+          <div class="clients img" >
+            <img src="assets/img/download java 6.png" alt="">
+          </div> 
+  
+          <p class="answer">
+            Then we have to set up Environment Varibles, In search tab type Environment variables and open it. </p>
+  
+            <div class="clients img" >
+              <img src="assets/img/download java 7.0.png" alt="">
+            </div> 
+    
+          <p class="answer">Click on Environment Variables, In user variables for human click "New" and variable name type : "JAVA_HOME" and in variable path : "C:\Program Files\Java\jdk-18.0.1.1" and click ok.</p>
+            
+  
+            <div class="clients img" >
+              <img src="assets/img/download java 7.png" alt="">
+            </div> 
+            
+            <p class = "answer">Then go to system variables click on path and click on new and paste this path : "C:\Program Files\Java\jdk-18.0.1.1\bin" click ok, ok and ok.</p>
+            <div class="clients img" >
+              <img src="assets/img/download java 8.png" alt="">
+            </div> 
+          
+            
+          <p class = answer>We have installed Java successfully. To check the Java is successfully installed or not, follow the steps given below. <br>
+            Open the Command Prompt and type the following commands: <br>
+            Type the command java ?version to check the Java version. It ensures that Java is successfully installed in your system. <br></p>
+    
+            
+            <div class="clients img" >
+              <img src="assets/img/download java 9.png" alt="">
+            </div> 
+          
+          <p class = "answer">If you can see the java version displayed in command prompt then you are all set, but if find this error 
+            "java not is not recognized" then you made some mistake while setting your Environment variables.
+          </p>
+          
+        </section>
+
+        <section id = "mysql_installation"> <p class="question">MySQl Installation For Sailpoint</p>
+
+          <p class = "answer">Now we are in our secound step, we need a database we will use mysql database but you install any database sailpoint support 4 different types of datatypes Mysql,sql,oracle and db2.
+            Most of the time people use MySql so let's start installing MySql For sailpoint. <br>
+            <br>
+            Step 1: Go to the <a href="https://dev.mysql.com/downloads/installer/">official website</a> of MySQL and download the community server edition software. Here, you will see the option to choose the Operating System, such as Windows. <br>
+            Step 2: Go to Archives and choose version 5.7.30 <br>
+            <div class="clients img" >
+              <img src="assets/img/mysql download 1.png" alt="">
+            </div> 
+
+            <p class="answer">Step 3: Next, there are two options available to download the setup. Choose the version number for the MySQL community server, which you want. If you have good internet connectivity, then choose the mysql-installer-web-community. Otherwise, choose the other one. </p>
+            <br>
+            <div class="clients img" >
+              <img src="assets/img/mysql download 2.png" alt="">
+            </div> 
+            <p class = "answer">Step 1: After downloading the setup, unzip it anywhere and double click the MSI installer .exe file. It will give the following screen:
+            </p>
+            <p class="answer"> Step 2: In the next wizard, choose the Setup Type. There are several types available, and you need to choose the appropriate option to install MySQL product and features. Here, we are going to select the "server only"option and click on the Next button.</p>
+          </p> <br>
+
+          <div class="clients img" >
+            <img src="assets/img/mysql download 3.png" alt="">
+          </div> 
+          <div class="clients img" >
+            <img src="assets/img/mysql download 4.png" alt="">
+          </div> 
+          <p class="answer">- And dont change anything follow the next next finish process.</p>
+          <p class="answer">- Note: Please don't forget your username and password.</p>
+          <p class="answer">- Then click on finish. if you have any doubt watch <a href="https://youtu.be/DvXEZ_jwfZI">Installation Video.</a></p>
+          <div class="clients img">
+            <img src="assets/img/mysql final.png" alt="">
+          </div>
+          <p class="answer">After MySql Installation we have to set Environment Variables for mysql. Open Environment variables, in system variables click on path then click on new then paste mysql path up to bin 
+            'C:\Program Files\MySQL\MySQL Server 5.7\bin' click ok, ok and ok.</p>
+          <div class="clients img">
+             <img src="assets/img/mysql final 1.0.png" alt="">
+          </div>
+
+          <p class="answer">Check if MySQl is installed properly or not.</p>
+          <p class="answer">Open command prompt and type "mysql -u root -p" and enter then it will ask your password type it and click on enter.</p>
+          <div class="clients img">
+            <img src="assets/img/mysql final 1.1.png" alt="">
+         </div>
+         <p class="answer">If see this then you are my sql installation is done. If you face this error "mysql not recognized" then you made some mistake while doing enviornment variables.</p>
+
+        </section>
+
+        <section id="tomcat_installation"> <p class="question">Tomcat Installation for sailpoint</p>
+        <p class="answer">Good job! we are in third step. Lets start installing Application server we will install "tomcat".
+          Step 1: <a href="https://tomcat.apache.org/download-90.cgi">Go to offical website and choose windows installer.</a>
+        </p>
+
+        <div class="clients img">
+          <img src="assets/img/tomcat 1.png" alt="">
+       </div>
+        <div class="clients img">
+       <p class="answer">click on next,i agree,next,next and finsh.</p>
+
+          <img src="assets/img/tomcat 2.png" alt="">
         </div>
+        <div class="clients img">
+          <img src="assets/img/tomcat 3.png" alt="">
+        </div>
+        <div class="clients img">
+          <img src="assets/img/tomcat 4.png" alt="">
+        </div>
+        <div class="clients img">
+          <img src="assets/img/tomcat 5.png" alt="">
+        </div>
+
+        <p class="answer">Lets check if we install tomcat correct.
+          <br>step 1: go to this path C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin and double click on tomcat application.
+        </p>
+        <div class="clients img">
+          <img src="assets/img/tomcat 6.png" alt="">
+        </div>
+        <p class="answer">you will see this [.catalina.startup.Catalina.start Server startup in [xxx] milliseconds] 
+          
+        </p>
+
+        <div class="clients img">
+          <img src="assets/img/tomcat 7.png" alt="">
+        </div>
+
+        <p class="answer">Then open google and type localhost:8080 and if you see this page congratulations.</p>
+
+        <div class="clients img">
+          <img src="assets/img/tomcat final.png" alt="">
+        </div>
+        </section>
+
+      <section id="sailpointpartinstallation"> <p class="question">Downloading Sailpoint</p>
+
+
+        <p class="answer">Ohff! we are in our last part installing sailpoint. Now go to <a href="https://community.sailpoint.com/t5/IdentityIQ-Server-Software/ct-p/IdentityIQ">Sailpoint offical website</a> and download IdentityIQ.zip</p>
+       <p class="answer">If you cant download identityiq.zip you can contact us through whatsapp or gmail <a href="access_needed">contact us</a></p>
+
+        <div class="clients img">
+          <img src="assets/img/sailpointdownload1.png" alt="">
+       </div>
+       <p class="answer">create a new folder in cdrive and  name it IIQ
+        now extract identityiq.zip file into IIQ folder
+        </p>
+        <div class="clients img">
+          <img src="assets/img/sp2.png" alt="">
+       </div>
+       <p class="answer">now open IIQ folder and copy identityiq.war file
+        go to C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps and paste identityiq.war file.
+        </p>
+        <div class="clients img">
+          <img src="assets/img/sp3.png" alt="">
+       </div>
+       <p class="answer">now run the tomcat server it will create a folder called identityiq.
+        HOW TO RUN TOMCAT?
+        GO TO THIS PATH "C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin" AND CLICK ON TOMCAT9.
+        you will see something like this in tomcat server.
+       </p>
+       <div class="clients img">
+        <img src="assets/img/sp4.png" alt="">
+      </div>
+      <p class="answer">Then in tomcat will start normally you will see server.startup started in xxx milliseconds.
+        <br> This process will create "identityiq" folder in webapps folder [ C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps]
+      <br>Then open command prompt
+      and type 
+      cd C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\identityiq\WEB-INF\bin
+      Click enter.
+      
+      </p>
+
+      <div class="clients img">
+        <img src="assets/img/sp5.png" alt="">
+      </div>
+      <p class="answer">now type <br>
+        iiq schema <br>
+        (this will generate database scripts for us) you can see database scripts in [C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\identityiq\WEB-INF\database]
+        </p>
+
+        <div class="clients img">
+          <img src="assets/img/sp6.png" alt="">
+        </div>
+ 
+        <p class="answer">Now login to mysql</p>
+        <div class="clients img">
+          <img src="assets/img/sp7.png" alt="">
+        </div>
+        <p class="answer">Now type <br>
+          source C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\identityiq\WEB-INF\database\ create_identityiq_tables.mysql <br>
+          Click enter <br>
+          It will create tables, It will take 20-30 mins to create table
+          </p>
+
+          <div class="clients img">
+            <img src="assets/img/sp8.png" alt="">
+          </div>
+          <p class="answer">if see mysql> in the end which means u succefully created your tables. <br>
+            To check if tables are created or not by checking database.
+            Type <br>
+            Show databases;
+          </p>
+
+          <div class="clients img">
+            <img src="assets/img/sp9.png" alt="">
+          </div>
+          <p class="answer">Then type <br>
+            use identityiq
+          </p>
+          <div class="clients img">
+            <img src="assets/img/sp10.png" alt="">
+          </div>
+          <p class="answer">
+            Then type <br>
+            show tables;
+          </p>
+          <div class="clients img">
+            <img src="assets/img/sp11.png" alt="">
+          </div>
+        <p class="answer">If u see this stuff u can move to next step
+          Now exit from mysql by typing
+          exit command
+          </p>
+          <div class="clients img">
+            <img src="assets/img/sp12.png" alt="">
+          </div>
+
+          <p class="answer">Now type iiq console
+          </p>
+          <div class="clients img">
+            <img src="assets/img/sp13.png" alt="">
+          </div>
+          <p class="answer">Now type <br> import init.xml</p>
+          <div class="clients img">
+            <img src="assets/img/sp14.png" alt="">
+          </div>
+          <p class="answer">Click enter <br>
+            It will create all xml files
+          </p>
+          <div class="clients img">
+            <img src="assets/img/sp15.png" alt="">
+          </div>
+          <p class="answer">Then type  <br>
+            Import init-lcm.xml
+          </p>
+          <div class="clients img">
+            <img src="assets/img/sp16.png" alt="">
+          </div>
+          <p class="answer">It will create life cycle manager options
+            
+          </p>
+          <div class="clients img">
+            <img src="assets/img/sp19.png" alt="">
+          </div>
+          <p class="answer">Then type <br> exit</p>
+          <div class="clients img">
+            <img src="assets/img/sp17.png" alt="">
+          </div>
+          <p class="answer">Now restart your pc to bring these changes.
+            <br>Then start tomcat server ->
+            C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin
+            Click on tomcat9 (application to start)
+            
+          </p>
+          <div class="clients img">
+            <img src="assets/img/sp18.png" alt="">
+          </div>
+          <p class="answer">Once it started open google chrome and type <br>
+            localhost:8080/identityiq <br> It will open sailpoint login page.
+            </p>
+            <div class="clients img">
+              <img src="assets/img/sp20.png" alt="">
+            </div>
+            <p class="answer">Username: spadmin <br>
+              Password: admin
+            </p>
+
+            <p class="answer">Hope You Installed sailpoint in your pc. If you want personilzed content, contact us on<a href="access_needed">Gmail.</a></p>
+
+          
+
+
+      </section>
+
+
+ 
+      </div>
+      
+    </section>
 
 
 
